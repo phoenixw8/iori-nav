@@ -10,7 +10,7 @@ test('parseSettings applies documented defaults', () => {
   assert.equal(settings.layout_menu_layout, 'horizontal');
   assert.equal(settings.layout_card_animation, 'radial');
   assert.equal(settings.layout_hide_desc, false);
-  assert.equal(settings.home_hide_github, false);
+  assert.equal(settings.home_hide_github, true);
 });
 
 test('parseSettings converts stored boolean strings consistently', () => {

@@ -76,7 +76,7 @@
       home_hide_hitokoto: false,
       home_hitokoto_size: '',
       home_hitokoto_color: '',
-      home_hide_github: false,
+      home_hide_github: true,
       home_hide_admin: false,
       home_search_engine_enabled: false,
       home_default_category: '',
