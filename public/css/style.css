@@ -672,7 +672,8 @@ html.dark body.custom-wallpaper .site-card.style-3.frosted-glass-effect:hover {
   justify-content: center;
   width: 25px;
   height: 25px;
-  margin: 4px auto;
+  /* 图标与下方标题间距：原先四边 4px，现改为下方 8px */
+  margin: 0 auto 8px;
   opacity: 1;
   flex-shrink: 0;
 }
